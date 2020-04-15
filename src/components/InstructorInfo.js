@@ -13,7 +13,7 @@ class InstructorInfo extends Component {
 		}
 	}
 	componentDidMount(){
-		axios.get('https://course-exam.herokuapp.com/users/')
+		axios.get('https://cors-anywhere.herokuapp.com/https://course-exam.herokuapp.com/users/')
 		.then((res)=>{
 			console.log(res.data)
 			console.log("instrucot info ")

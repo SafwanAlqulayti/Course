@@ -61,7 +61,7 @@ class EditInfo extends Component {
             const  x = localStorage.getItem('tokens') ;
             const user =jwt_decode(x)
             const id = user.user._id
-            axios.get(`https://course-exam.herokuapp.com/users/${id}`)
+            axios.get(`https://cors-anywhere.herokuapp.com/https://course-exam.herokuapp.com/users/${id}`)
             .then((result)=>{
               this.setState({
                 username: result.username

@@ -71,7 +71,7 @@ function App(props) {
         </ul> */}
         {/* <MyInfo use rInfo={props.useID}/> */}
 <Header></Header>
-            <Route exact path= { "/"     component={Home} />
+            <Route exact path=  "/"     component={Home} />
          <Route path= "/login" component={Login} />
             <Route path="/myinfo" component={MyInfo} />
             <Route path="/thequiz" component={TheQuiz} />

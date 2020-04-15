@@ -128,7 +128,7 @@ class Image extends Component {
       });
   }
   getImage=()=>{
-    axios.get('https://course-exam.herokuapp.com/image/5e4f1d4e187ed82b6c2552cf').then((res)=>{
+    axios.get('https://course-exam.herokuapp.com/image/5e8c4b3d71175c0004f829a6').then((res)=>{
       console.log(res.data.imageData)
       this.setState({
         Image: res.data.imageData
