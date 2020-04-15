@@ -24,7 +24,7 @@ function App(props) {
   //   let token = localStorage.getItem("tokens");
   //   console.log(token)
   // })
-  const path1 = "course-exam-front-end"
+  const path1 = "course"
   const [authTokens, setAuthTokens] = useState();
   // const [ userId , setUserId] = useState("");
 
@@ -71,7 +71,7 @@ function App(props) {
         </ul> */}
         {/* <MyInfo use rInfo={props.useID}/> */}
 <Header></Header>
-            <Route exact path=  "/"     component={Home} />
+            <Route exact path= {path1 + "/" }     component={Home} />
          <Route path= "/login" component={Login} />
             <Route path="/myinfo" component={MyInfo} />
             <Route path="/thequiz" component={TheQuiz} />
