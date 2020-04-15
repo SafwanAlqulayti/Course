@@ -24,7 +24,7 @@ function App(props) {
   //   let token = localStorage.getItem("tokens");
   //   console.log(token)
   // })
-  const path1 = "course"
+  const path1 = "/course"
   const [authTokens, setAuthTokens] = useState();
   // const [ userId , setUserId] = useState("");
 
